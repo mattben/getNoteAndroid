@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/mattben/getnote/svn/!svn/ver/3/trunk/getNote
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/mattben/getnote/svn/!svn/ver/2/trunk/getNote/default.properties
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/mattben/getnote/svn/!svn/ver/27/trunk/getNote/AndroidManifest.xml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/mattben/getnote/svn/!svn/ver/2/trunk/getNote/.project
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/mattben/getnote/svn/!svn/ver/2/trunk/getNote/proguard.cfg
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/mattben/getnote/svn/!svn/ver/25/trunk/getNote/.classpath
+END

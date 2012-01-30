@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the page layout for the HomeActivity.java, -->
+<!-- It was created in Eclipse using the Android SKD tools -->
+<!-- A interactive GUI for creating layouts -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:background="@drawable/img01">
+    <TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="fill_parent" android:textColor="#E44D32" android:text="@string/titleHome" android:gravity="center" android:textSize="28dp"></TextView>
+    <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/welcometext" android:textColor="#4D8D99" android:gravity="center" android:layout_width="fill_parent" android:textSize="18dp"></TextView>
+    <ListView android:id="@android:id/list"
+        android:layout_height="wrap_content" android:layout_width="fill_parent"/>
+  <TextView android:id="@android:id/empty"
+        android:layout_height="wrap_content"
+        android:text="@string/none" android:textColor="#E44D32" android:layout_width="fill_parent" android:textSize="22dp" android:gravity="center"/>
+    
+</LinearLayout>

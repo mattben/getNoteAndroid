@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the page layout for the Login.java, -->
+<!-- It was created in Eclipse using the Android SKD tools -->
+<!-- A interactive GUI for creating layouts -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:background="@drawable/img01">
+    <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/textUserName" android:textColor="#E44D32" android:layout_width="fill_parent" android:gravity="center" android:textSize="28dp"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editTextUsername">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:id="@+id/textView2" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/textPassword" android:textColor="#E44D32" android:layout_width="fill_parent" android:gravity="center" android:textSize="28dp"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="textPassword" android:id="@+id/editTextPassword"></EditText>
+    <TextView android:id="@+id/textView3" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:layout_weight="1"></TextView>
+    <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/buttonsubmit" android:id="@+id/buttonSubmitLogin"></Button>
+    
+</LinearLayout>

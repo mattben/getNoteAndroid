@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the strings.xml which holds all the key value pairs -->
+<!-- It was created in Eclipse using the Android SKD tools -->
+<!-- A interactive GUI for saving strings -->
+<resources>
+    <string name="titleSubmitANote">submit a text note</string>
+    <string name="app_name">getNote</string>
+    <string name="buttonSubmiteNote">Submit Note</string>
+    <string name="hintFileName">Note</string>
+    <string name="promptClassInput">Course</string>
+    <string name="buttonTextNote">Text Note</string>
+    <string name="buttonPixNote">Photo Note</string>
+    <string name="titleSelection">class / type / date</string>
+    <string name="titleHome">welcome to getNote</string>
+    <string name="newNote">new note</string>
+    <string name="promptType">Course Note Type</string>
+    <string-array name="types">
+    	<item>lecture</item>
+    	<item>discussion</item>
+    	<item>activity</item>
+    	<item>lab</item>
+    	<item>study_group</item>
+    	<item>home_work</item>
+    </string-array>
+    <string-array name="courses">
+    	<item>CSCI000 - Personal Notes</item> 
+    	<item>CSCI101 - Introduction to Computer Science</item> 
+    	<item>CSCI102 - Living With Technology</item> 
+    	<item>CSCI111 - Programming and Algorithms I</item> 
+    	<item>CSCI144 - Introduction to UNIX/Linux</item> 
+    	<item>CSCI211 - Programming and Algorithms II</item> 
+    	<item>CSCI221 - Assembly Language Programming</item> 
+    	<item>CSCI301 - Computers Impact on Society</item> 
+    	<item>CSCI311 - Algorithms and Data Structures</item> 
+    	<item>CSCI313 - Mind in the Machine - Honors</item> 
+    	<item>CSCI315 - Programming Languages</item> 
+    	<item>CSCI317 - Linear Programming Applications</item> 
+    	<item>CSCI320 - Computer Architecture</item> 
+   		<item>CSCI340 - Operating Systems</item> 
+    	<item>CSCI344 - Shell Programming</item> 
+    	<item>CSCI346 - Introduction to Computer Networks</item> 
+    	<item>CSCI351 - Numerical Methods Programming</item> 
+    	<item>CSCI380 - Machines, Brains, and Minds</item> 
+    	<item>CSCI381 - Language, Intelligence, and Computation</item> 
+    	<item>CSCI389 - Industry Internship</item> 
+    	<item>CSCI400 - Computer Science Activity</item> 
+    	<item>CSCI430 - Software Engineering 1</item> 
+    	<item>CSCI431 - Software Engineering 2</item> 
+    	<item>CSCI444 - Fundamental UNIX System Administration</item> 
+    	<item>CSCI465 - Web Programming Fundamentals</item> 
+    	<item>CSCI490 - Directed Programming Experience</item> 
+    	<item>CSCI498 - Topics in Computer Science</item> 
+    	<item>CSCI499 - Honors Research Project/Thesis</item> 
+    	<item>CSCI511 - Object-Oriented Programming</item> 
+    	<item>CSCI515 - Compiler Design</item> 
+    	<item>CSCI533 - Object-Oriented Analysis and Design</item> 
+    	<item>CSCI540 - Systems Programming</item> 
+    	<item>CSCI546 - Advanced Network Management</item> 
+    	<item>CSCI547 - Advanced Computer Networks</item> 
+	    <item>CSCI550 - Theory of Computing</item> 
+	    <item>CSCI566 - Computer Graphics Programming</item> 
+	    <item>CSCI567 - Graphical User Interfaces</item> 
+	    <item>CSCI568 - Digital Image Processing</item> 
+	    <item>CSCI569 - Advanced Computer Graphics</item> 
+	    <item>CSCI580 - Artificial Intelligence</item> 
+	    <item>CSCI583 - Expert Systems and Applications</item> 
+	    <item>CSCI585 - Robotics and Machine Intelligence</item> 
+	    <item>CSCI598 - Advanced Topics in Computer Science</item> 
+	    <item>CSCI611 - Distributed Computing</item> 
+	    <item>CSCI619 - Topics in Programming Language Theory</item> 
+	    <item>CSCI620 - Computer Architecture</item> 
+	    <item>CSCI629 - Topics in Computer Architecture</item> 
+	    <item>CSCI630 - Software Engineering - Grad</item> 
+	    <item>CSCI639 - Topics in Software Engineering - Grad</item> 
+	    <item>CSCI640 - Operating Systems - Grad</item> 
+	    <item>CSCI649 - Topics in Networking</item> 
+	    <item>CSCI650 - Design and Analysis of Algorithms</item> 
+	    <item>CSCI659 - Topics in Computer Theory</item> 
+	    <item>CSCI669 - Topics in Computer Graphics</item> 
+	    <item>CSCI679 - Topics in Database Systems</item> 
+	    <item>CSCI682 - Topics in Artificial Intelligence</item> 
+	    <item>CSCI693 - Research Methods in Computer Science</item> 
+	    <item>CSCI697 - Independent Study</item> 
+	    <item>CSCI698 - Seminar in Advanced Topics</item> 
+	    <item>CSCI699 - Masters Project</item> 
+	    <item>CSCI700 - Masters Thesis</item> 
+    </string-array>
+    <string name="PREF_USERNAME">username</string>
+    <string name="PREF_NAME">MyPrefsFile</string>
+    <string name="PREF_PASSWORD">password</string>
+    <string name="buttonsubmit">Submit</string>
+    <string name="textUserName">School Email</string>
+    <string name="textPassword">getNote.org Password</string>
+    <string name="menuaccount">account</string>
+    <string name="none">you have no notes</string>
+    <string name="buttonDeleteNote">Delete</string>
+    <string name="ToastAccountInfoReq">Account Informatoin Required</string>
+    <string name="ToastNotUnique">Note with this class / type / date exist. Try Changing the type</string>
+    <string name="ToastEmptyNote">You can not save a empty note</string>
+    <string name="ToastPhotoNotSaved">Your note was not saved</string>
+    <string name="AlerDialogPhotoNote">getNote</string>
+    <string name="AlertDialogText">please choose</string>
+    <string name="ToastPhotoNoteSaved">Photo Note has been saved</string>
+    <string name="EditTextReEnterPassword">Re-enter Password</string>
+    <string name="menusync">sync</string>
+    <string name="ToastSaved">Note has been saved</string>
+    <string name="ToastUpdated">Note has been updated</string>
+    <string name="DialogDelete">are you sure you want to delete</string>
+    <string name="ToastDeleted">Note has been deleted</string>
+    <string name="ToastNot">Note was not saved</string>
+    <string name="ToastCreate">Please create account at www.getnote.org</string>
+    <string name="ToastGoodAcc">Account info saved</string>
+    <string name="ToastBadAcc">Account info saved - Not a Valid User</string>
+    <string name="menuPolicies">policies</string>
+    <string name="TextPolicies">Policies</string>
+    <string name="TextFullPolicies">getNote has every intention of being in compliance with the Academic Integrity policy of your school. We are not, however, liable for any action taken by your school against you the student for the use of this application. We suggest to all our members that they familiarize themselves with the policies of their institution. This is a application for taking and saving notes created by its users. To that end, we require that any documentation posted to and from this application be original material created by the submitter. This application is for notes and notes only. We reserve the right to edit or remove any content deemed outside the scope of this site, not limited to: test or quiz material, assignments in any form, or copyrighted material (without citation). We value the privacy of our users, as well as non-members. We will not collect any information from our users, and will not share their school email address with secondary sources. For this same reason we will not allow any personal information to be stored in notes uploaded to this site. We reserve the right to remove such material. This application is not affiliated with CSU, Chico or any other school. Membership on this site is a privilege - not a students right. We reserve the right to ban users from the getNote site (both temporarily, and indefinitely) for violating any of the aforementioned policies on this page.</string>
+    <string name="ToastSync">Your accounts have been synced</string>    
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the page layout for the CreateNoteActivity.java, -->
+<!-- It was created in Eclipse using the Android SKD tools -->
+<!-- A interactive GUI for creating layouts -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/img01">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:cursorVisible="false"
+		android:password="false" android:gravity="center" android:text="@string/titleSubmitANote"
+		android:textColor="#E44D32" android:textSize="28dp"/>
+	<TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="center" android:layout_width="fill_parent" android:textColor="#4D8D99" android:id="@+id/textViewFilename" android:textSize="18dp"></TextView>
+	<EditText android:inputType="textMultiLine"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:id="@+id/editSubmitNote" android:hint="@string/hintFileName" android:layout_weight="1">
+		<requestFocus></requestFocus>
+	</EditText>
+	<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="match_parent">
+		<Button android:layout_height="wrap_content" android:text="@string/buttonSubmiteNote" android:id="@+id/buttonSubmitNote" android:layout_width="wrap_content" android:layout_weight="50" android:layout_gravity="center"></Button>
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="50" android:layout_gravity="center" android:text="@string/buttonDeleteNote" android:id="@+id/buttonDeleteNote"></Button>
+	</LinearLayout>
+</LinearLayout>
