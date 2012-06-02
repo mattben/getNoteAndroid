@@ -26,13 +26,47 @@ has-props
 
 ef33f31b-9b76-4373-a834-a3c1801cfdc4
 
+default.properties
+file
+
+
+
+
+2011-10-09T01:03:16.335649Z
+dce21c95fbec025d61b755b1aa2a2f2f
+2011-10-09T00:42:27.915098Z
+2
+polyharris@yahoo.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+363
+
 .classpath
 file
 25
 
 
 
-2011-11-29T18:04:26.777000Z
+2011-11-29T18:04:26.777374Z
 caa3c5c45465b4b0a17b16e678c3c871
 2011-11-29T18:05:08.233682Z
 25
@@ -59,6 +93,43 @@ polyharris@yahoo.com
 
 
 349
+
+proguard.cfg
+file
+
+
+
+
+2011-10-09T01:03:16.338650Z
+03ea0fdd0a4aabc43b80216d64438921
+2011-10-09T00:42:27.915098Z
+2
+polyharris@yahoo.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1248
+
+assets
+dir
 
 .project
 file
@@ -100,7 +171,7 @@ file
 
 
 
-2011-11-29T18:43:27.913000Z
+2011-11-29T18:43:27.913279Z
 2a93d95043c0a38c4abd89795e8c1e42
 2011-11-29T19:12:35.790484Z
 27
@@ -128,83 +199,12 @@ polyharris@yahoo.com
 
 1306
 
-assets
+src
 dir
-
-default.properties
-file
-
-
-
-
-2011-10-09T01:03:16.335649Z
-dce21c95fbec025d61b755b1aa2a2f2f
-2011-10-09T00:42:27.915098Z
-2
-polyharris@yahoo.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-363
 
 gen
 dir
 
-proguard.cfg
-file
-
-
-
-
-2011-10-09T01:03:16.338650Z
-03ea0fdd0a4aabc43b80216d64438921
-2011-10-09T00:42:27.915098Z
-2
-polyharris@yahoo.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1248
-
 res
-dir
-
-src
 dir
 
