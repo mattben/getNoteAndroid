@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/mattben/getnote/svn/!svn/ver/2/trunk/getNote/src/org/getnote
+END
+NotesDbAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/mattben/getnote/svn/!svn/ver/29/trunk/getNote/src/org/getnote/NotesDbAdapter.java
+END
+PoliciesActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/mattben/getnote/svn/!svn/ver/27/trunk/getNote/src/org/getnote/PoliciesActivity.java
+END
+HomeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/mattben/getnote/svn/!svn/ver/33/trunk/getNote/src/org/getnote/HomeActivity.java
+END
+CreateNoteActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/mattben/getnote/svn/!svn/ver/29/trunk/getNote/src/org/getnote/CreateNoteActivity.java
+END
+SelectionActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/mattben/getnote/svn/!svn/ver/24/trunk/getNote/src/org/getnote/SelectionActivity.java
+END
+Login.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/mattben/getnote/svn/!svn/ver/33/trunk/getNote/src/org/getnote/Login.java
+END

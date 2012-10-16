@@ -80,7 +80,7 @@ public class Login extends Activity implements OnClickListener {
      * @see android.view.View.OnClickListener#onClick(android.view.View)
      * This method is called when the user clicks the submite button
      */
-	//@Override
+	@Override
 	public void onClick(View v) {
         username = (EditText) this.findViewById(R.id.editTextUsername);
         password = (EditText) this.findViewById(R.id.editTextPassword);

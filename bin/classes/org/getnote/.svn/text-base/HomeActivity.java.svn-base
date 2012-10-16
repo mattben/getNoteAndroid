@@ -350,7 +350,7 @@ public class HomeActivity extends ListActivity implements OnClickListener {
         		in.close();
         		//this is what is returned to be saved to device db
         		String page = sb.toString();
-        		Toast.makeText(HomeActivity.this, page , Toast.LENGTH_LONG).show();
+        		//Toast.makeText(HomeActivity.this, page , Toast.LENGTH_LONG).show();
         		// Now we have the JSON string break it apart in to individual notes and save them
         		
         		if(page.equals("false\n")){
@@ -519,7 +519,7 @@ public class HomeActivity extends ListActivity implements OnClickListener {
 	 * This method must be here, I don't have a button that gets clicked, but the selectable item list
 	 * still requires it to be here
 	 */
-	//@Override
+	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
 		

@@ -27,7 +27,7 @@ public class PoliciesActivity extends Activity implements OnClickListener {
         back = (Button) this.findViewById(R.id.buttonback);
         back.setOnClickListener(this);
     }
-	//@Override
+	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
 		finish();

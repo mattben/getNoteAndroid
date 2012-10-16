@@ -42,7 +42,7 @@ public class SelectionActivity extends Activity implements OnClickListener, Adap
     private File values;
     private NotesDbAdapter mDbHelper;
     
-    String[] items= {"CSCI000 - Personal Notes" /*,
+    String[] items= {"CSCI000 - Personal Notes",
     				"CSCI101 - Introduction to Computer Science",
     				"CSCI102 - Living With Technology",
     				"CSCI111 - Programming and Algorithms I",
@@ -102,7 +102,7 @@ public class SelectionActivity extends Activity implements OnClickListener, Adap
 				    "CSCI697 - Independent Study",
 				    "CSCI698 - Seminar in Advanced Topics",
 				    "CSCI699 - Masters Project",
-				    "CSCI700 - Masters Thesis" */ };
+				    "CSCI700 - Masters Thesis"};
     
     String[] types = {	"lecture",
 				    	"discussion",
@@ -156,7 +156,7 @@ public class SelectionActivity extends Activity implements OnClickListener, Adap
      * @see android.view.View.OnClickListener#onClick(android.view.View)
      * Called to find out what button the user clicked
      */
-	//@Override
+	@Override
 	public void onClick(View arg0) {
 		// mharris23@mail.csuchico.edu-2011.9.26-CSCI490-lecture-.txt
 		// user-date-course-type-.file
@@ -341,7 +341,7 @@ public class SelectionActivity extends Activity implements OnClickListener, Adap
 	 * @see android.widget.AdapterView.OnItemSelectedListener#onItemSelected(android.widget.AdapterView, android.view.View, int, long)
 	 * This method is called when the user selects a class and type
 	 */
-	//@Override
+	@Override
 	public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,
 			long arg3) {
 		switch (arg0.getId()){
@@ -360,7 +360,7 @@ public class SelectionActivity extends Activity implements OnClickListener, Adap
 	 * @see android.widget.AdapterView.OnItemSelectedListener#onNothingSelected(android.widget.AdapterView)
 	 * This is called if the user does not seleced anything which implies they wanted the first thing in the list
 	 */
-	//@Override
+	@Override
 	public void onNothingSelected(AdapterView<?> arg0) {
 		switch (arg0.getId()){
 		case R.id.course:

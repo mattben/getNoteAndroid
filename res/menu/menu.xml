@@ -3,9 +3,8 @@
 <!-- It was created in Eclipse using the Android SKD tools -->
 <!-- A interactive GUI for creating menus -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/new_note"
-          android:title="@string/newNote" android:icon="@drawable/newnote"/>
-    
-    <item android:id="@+id/sync" android:icon="@drawable/sync" android:title="@string/menusync"></item><item android:title="@string/menuaccount" android:id="@+id/account" android:icon="@drawable/account"></item>
+    <item android:id="@+id/new_note" android:title="@string/newNote" android:icon="@drawable/newnote"/>
+    <item android:id="@+id/sync" android:icon="@drawable/sync" android:title="@string/menusync"></item>
+    <item android:title="@string/menuaccount" android:id="@+id/account" android:icon="@drawable/account"></item>
     <item android:id="@+id/policies" android:title="@string/menuPolicies" android:icon="@drawable/policies"></item>      
 </menu>
